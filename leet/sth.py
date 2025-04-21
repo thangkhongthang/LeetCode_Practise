@@ -15,5 +15,5 @@ def numRabbits(answers):
         else:
             min_rab += (k+1)*((l+k)//(k+1))
     return min_rab
-
-print(numRabbits([10,10,10]))
+answers = [10,10,10]
+print(numRabbits(answers))
